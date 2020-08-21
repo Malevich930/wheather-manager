@@ -1,4 +1,4 @@
-# Wheather-manager
+## Wheather-manager
 In the project directory, you can run:
 
 ## Initialization
