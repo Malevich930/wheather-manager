@@ -1,0 +1,136 @@
+.page, .root {
+    position: relative;
+    height: 100%;
+}
+
+.table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: initial;
+    flex-direction: column;
+    
+}
+
+ .table-row {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ .table-cell:first-child {
+    border-left: 1px solid #f2f2f2;
+}
+
+.table-cell {
+    padding: 10px 15px;
+    border-top: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.table-cell.title {
+    flex-grow: 9999;
+    line-height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50px;
+}
+
+ .table-cell.action {
+    flex: 0 1 100px;
+}
+
+.list.inline {
+    margin-left: -5px;
+    margin-right: -5px;
+    white-space: nowrap;
+}
+
+.list {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+.list.inline>li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ .button {
+    border-radius: 4px;
+    transition: all .1s ease-in-out;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.edit{
+    padding: 0.75rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    transition: all .1s ease-in-out;
+    padding: 0 10px;
+    border: 1px solid #22ee66;
+    background-color: #fff;
+    line-height: 30px;
+    display: inline-block;
+  }
+  .edit:hover{
+    background-color: #22ee66;
+    box-shadow: 0 4px #03aa35;
+    transition: 0.5s;
+    border-radius: 4px;
+    transition: all .1s ease-in-out;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    line-height: 30px;
+    display: inline-block;
+  }
+
+  .delete{
+    padding: 0.75rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    transition: all .1s ease-in-out;
+    padding: 0 10px;
+    border: 1px solid #ee2222;
+    background-color: #fff;
+    line-height: 30px;
+    display: inline-block;
+  }
+  .delete:hover{
+    background-color: #ee2222;
+    box-shadow: 0 4px #990000;
+    transition: 0.5s;
+    border-radius: 4px;
+    transition: all .1s ease-in-out;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    line-height: 30px;
+    display: inline-block;
+  }
+
+  .form-warn {
+    display: block;
+    height: 19px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ff1b00;
+}
