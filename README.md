@@ -1,8 +1,8 @@
-## Wheather-manager
+# Wheather-manager
 In the project directory, you can run:
 
-# Initialization
+## Initialization
 `npm install`
 
-# Start project
+## Start project
 `npm run start`
